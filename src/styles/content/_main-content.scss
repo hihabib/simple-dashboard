@@ -1,0 +1,15 @@
+@use '../global' as var;
+
+.main-content {
+  @extend .col-md-10;
+  @extend .py-2;
+  background-color: #F9FAFB;
+}
+
+//Context box card
+.content {
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px -1px rgba(0,0,0,.1);
+  border-radius: var.$radius;
+  padding: 2rem;
+  background: white;
+}

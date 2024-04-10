@@ -1,0 +1,19 @@
+@use "../../../node_modules/bootstrap/scss/bootstrap";
+@use 'variable' as var;
+
+/*Google Font */
+@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap';
+
+
+.list-group-item {
+  border: none;
+  margin: 5px 0
+}
+
+.list-group-item-action {
+  &:hover {
+    border-radius: var.$radius;
+    color: rgb(17, 24, 39) !important;
+    background-color: #F3F4F6;
+  }
+}

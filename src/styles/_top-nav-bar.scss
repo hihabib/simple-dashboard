@@ -1,0 +1,33 @@
+@use 'global' as var;
+
+
+.top-nav-bar {
+  @extend .container-fluid;
+  border-bottom: var.$border;
+}
+.top-nav-bar > div{
+  @extend .row;
+  @extend .py-1;
+  align-items: center;
+}
+.top-nav-bar>div>div:first-child {
+  @extend .col-md-2;
+}
+.top-nav-bar>div>div:last-child {
+  @extend .col-md-10;
+}
+.nav-container {
+  @extend .navbar;
+  @extend .navbar-expand-lg;
+  background: white;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.navbar-brand > img {
+  @extend .img-fluid;
+}
+

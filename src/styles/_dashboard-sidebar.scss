@@ -1,0 +1,34 @@
+@use 'global' as var;
+
+//Dashboard Sidebar
+.main-sidebar {
+  @extend .col-md-2;
+  font-size: 18px;
+  border-right: var.$border;
+}
+.main-sidebar i {
+  font-size: 22px
+}
+.main-sidebar a {
+  color: rgb(107, 114, 128)
+}
+.dashboard-link {
+  @extend .list-group-item;
+  @extend .list-group-item-action;
+  @extend .d-flex;
+  @extend .gap-2;
+  @extend .align-items-center;
+}
+.dashboard-item {
+  @extend .list-group;
+  @extend .list-group-flush;
+  @extend .w-100;
+}
+.dashboard-link.active {
+  background: rgb(24, 24, 27);
+  color: white!important;
+  border-radius: var.$radius;
+}
+.dashboard-link.active box-icon{
+  fill: white!important;
+}

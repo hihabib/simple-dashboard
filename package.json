@@ -1,0 +1,22 @@
+{
+  "name": "simple-dashboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vituum/vite-plugin-handlebars": "^1.1.0",
+    "sass": "^1.74.1",
+    "vite": "^5.2.0",
+    "vite-plugin-purgecss": "^0.2.12",
+    "vituum": "^1.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "boxicons": "^2.1.4"
+  }
+}
